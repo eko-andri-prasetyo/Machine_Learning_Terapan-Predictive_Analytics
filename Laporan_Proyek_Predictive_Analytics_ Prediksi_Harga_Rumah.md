@@ -54,12 +54,15 @@ Dataset yang digunakan adalah California Housing Prices dari Kaggle [3], yang be
 Analisis data menunjukkan distribusi harga rumah yang miring ke kanan, dengan sebagian besar rumah berharga di bawah $200,000. Terdapat korelasi positif yang kuat antara median_income dan median_house_value (0.69), menunjukkan bahwa pendapatan rumah tangga merupakan prediktor penting harga rumah.
 
 ![Distribusi Harga Rumah California](https://i.imgur.com/8URxoSS.png)
+
 *Gambar 1: Distribusi harga rumah California*
 
 ![Heatmap Korelasi](https://i.imgur.com/4C8YRfd.png)
+
 *Gambar 2: Heatmap korelasi antar variabel numerik*
 
 ![Distribusi Ocean Proximity](https://i.imgur.com/PZzRM5Y.png)
+
 *Gambar 3: Distribusi kategori kedekatan dengan laut*
 
 **Referensi:**
@@ -184,13 +187,16 @@ Analisis feature importance menunjukkan bahwa:
 5. **housing_median_age** (0.063) - Usia properti mempengaruhi harga
 
 ![Feature Importance](https://i.imgur.com/5pExzZN.png)
+
 *Gambar 4: Top 10 Feature Importance*
 
 ### Visualisasi Prediksi
 ![Actual vs Predicted](https://i.imgur.com/tN4ucud.png)
+
 *Gambar 5: Actual vs Predicted House Prices*
 
 ![Residual Plot](https://i.imgur.com/q8Wbn2z.png)
+
 *Gambar 6: Residual Plot menunjukkan distribusi error*
 
 ## Kesimpulan
@@ -222,4 +228,5 @@ Berdasarkan hasil analisis, disarankan untuk:
 2. Mempertimbangkan feature engineering yang lebih kreatif untuk mengekstrak insights tambahan
 3. Melakukan monitoring dan updating model secara berkala mengikuti perubahan pasar
 4. Mengembangkan interface user-friendly untuk memudahkan penggunaan model oleh berbagai stakeholder
+
 
