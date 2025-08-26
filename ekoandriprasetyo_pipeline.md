@@ -1,4 +1,3 @@
-```markdown
 # Submission 1: California Housing Price Prediction
 
 **Nama:** Eko Andri Prasetyo  
